@@ -1,0 +1,40 @@
+# Terraform local files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local variables and secrets
+*.tfvars
+*.tfvars.json
+*.env
+*.pem
+*.key
+*.crt
+*.zip
+*.bak
+
+# Backend state files (just in case)
+*.tfstate.*
+*.backup
+
+# Logs and temp files
+*.log
+*.tmp
+.DS_Store
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
