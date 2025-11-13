@@ -3,8 +3,6 @@
 
 A Terraform-based, opinionated infrastructure module to provision a scalable, highly available infrastructure on AWS. This repository provides reusable HCL for deploying networking, compute (Auto Scaling Groups / ECS), load balancing, and optional managed services in a way that's suitable for production environments.
 
-> Note: This README is written to be pragmatic and provider-agnostic within AWS best practices. Adjust variable names and modules to match the exact structure if you change the repository layout.
-
 ## Features
 
 - VPC with public/private subnets and NAT gateways
